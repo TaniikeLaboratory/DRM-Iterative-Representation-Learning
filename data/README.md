@@ -1,2 +1,2 @@
-xenonpy_normalized_v2.csv: Normalized elemental properties derived from XenonPy (66 elements × 58 properties).
-DRM_loop14.csv: Experimental DRM dataset comprising 697 catalysts, including nominal elemental loadings (mmol/g-support) and experimentally observed catalytic performance metrics.
+- xenonpy_normalized_v2.csv: Normalized elemental properties derived from XenonPy (66 elements × 58 properties).
+- DRM_loop14.csv: Experimental DRM dataset comprising 697 catalysts, including nominal elemental loadings (mmol/g-support) and experimentally observed catalytic performance metrics.
