@@ -2,3 +2,5 @@
 - DRM_loop14.csv: Experimental DRM dataset comprising 697 catalysts accumulated through Loop 14, including nominal elemental loadings (mmol/g-support) and experimentally observed catalytic performance metrics.
 - DRM_loop14_descriptor_pool.csv: Candidate descriptor pool generated from the Loop 14 catalyst compositions using XenonPy elemental properties.
 - Test_example_C3.csv: Example candidate catalyst compositions generated under the C3 sampling condition (Ni loading fixed at 0.8 mmol/g-support).
+- tSNE_measured_samples.csv: Measured catalyst dataset containing loop-specific descriptor vectors, predicted H2 yields, experimental H2 yields, and the loop in which each catalyst entered the training dataset.
+- tSNE_virtual_samples.csv: Virtual catalyst dataset containing loop-specific descriptor vectors and predicted H2 yields for t-SNE visualization.
