@@ -4,3 +4,5 @@
 - Test_example_C3.csv: Example candidate catalyst compositions generated under the C3 sampling condition (Ni loading fixed at 0.8 mmol/g-support).
 - tSNE_measured_samples.csv: Measured catalyst dataset containing loop-specific descriptor vectors, predicted H2 yields, experimental H2 yields, and the loop in which each catalyst entered the training dataset.
 - tSNE_virtual_samples.csv: Virtual catalyst dataset containing loop-specific descriptor vectors and predicted H2 yields for t-SNE visualization.
+- Catalyst_phylogenetic_tree_data.csv: Catalyst combination dataset containing elemental combinations, catalytic performance metrics, and loop identifiers for phylogenetic tree analysis.
+- element_distance_matrix.csv: Pairwise elemental distance matrix used to calculate catalyst dissimilarities for phylogenetic tree construction.
