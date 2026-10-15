@@ -11,7 +11,7 @@ fileout = "./data/FPS_result_test_example.csv"
 test_data = test_data.drop_duplicates()
 test_predicted = test_predicted.drop_duplicates()
 
-selected_descriptor_names = ["(mendeleev_number_max)^2","1/(bulk_modulus_max)","1/(lattice_constant_min)","1/ln(electron_negativity_max)","(atomic_volume_min)^3","exp(electron_negativity_ssd)","exp(gs_mag_moment_ase)","1/exp(covalent_radius_pyykko_triple_max)","(atomic_volume_max)^2","1/(c6_gb_min)","1/(covalent_radius_pyykko_triple_gmean)","1/exp(gs_mag_moment_ase)","1/ln(Polarizability_prod)","1/sqrt(gs_est_bcc_latcnt_sum)","1/sqrt(specific_heat_min)","ln(lattice_constant_sum)","ln(melting_point_gmean)","ln(vdw_radius_mm3_gmean)","sqrt(density_max)","sqrt(period_ase)"] # loop-16 descriptor set
+selected_descriptor_names = ["(mendeleev_number_max)^2","1/(bulk_modulus_max)","1/(lattice_constant_min)","1/ln(electron_negativity_max)","(atomic_volume_min)^3","exp(electron_negativity_ssd)","exp(gs_mag_moment_ase)","1/exp(covalent_radius_pyykko_triple_max)","(atomic_volume_max)^2","1/(c6_gb_min)","1/(covalent_radius_pyykko_triple_gmean)","1/exp(gs_mag_moment_ase)","1/ln(Polarizability_prod)","1/sqrt(gs_est_bcc_latcnt_sum)","1/sqrt(specific_heat_min)","ln(lattice_constant_sum)","ln(melting_point_gmean)","ln(vdw_radius_mm3_gmean)","sqrt(density_max)","sqrt(period_ase)"] # loop-14 descriptor set
 
 number_of_samples=20
 USE_FILTER = True  # True: class = 1 and 25 < predicted H2 yield < 50; False: no filtering
