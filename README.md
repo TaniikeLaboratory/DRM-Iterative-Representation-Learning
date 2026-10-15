@@ -14,6 +14,7 @@ The active-learning workflow consists of the following steps:
 2. **Descriptor selection:** `Descriptor_selection_for_classification.py` and `Descriptor_selection_for_regression.py`
 3. **Performance prediction:** `Prediction.py`
 4. **Candidate recommendation:** `FPS.py`
+
 These steps can be repeated as new experimental data become available. The repository also provides `Generate_tSNE.py` and `Generate_phylogenetic_tree.py` for visualizing the results.
 
 ### Application to new projects
