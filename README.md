@@ -7,3 +7,14 @@ Code, data, and reproducibility resources for active learning and iterative repr
 - FPS.py: Recommends candidate catalysts using farthest point sampling in PCA-reduced descriptor space. Prediction-based filtering can be enabled or disabled using the USE_FILTER flag.
 - Generate_tSNE.py: Generates t-SNE maps of tested catalysts and untested candidates using loop-specific descriptor spaces and predicted H2 yields. The model and descriptor loops can be specified independently.
 - Generate_phylogenetic_tree.py: Constructs a catalyst phylogenetic tree using pairwise elemental distances and the neighbor-joining method to visualize elemental-combination diversity of catalysts.
+
+### Computational workflow
+The active-learning workflow consists of the following steps:
+1. **Descriptor generation:** `Generate_descriptor_pool.py`
+2. **Descriptor selection:** `Descriptor_selection_for_classification.py` and `Descriptor_selection_for_regression.py`
+3. **Performance prediction:** `Prediction.py`
+4. **Candidate recommendation:** `FPS.py`
+These steps can be repeated as new experimental data become available. The repository also provides `Generate_tSNE.py` and `Generate_phylogenetic_tree.py` for visualizing the results.
+
+### Application to new projects
+The workflow can be adapted to other catalyst discovery problems by replacing the input datasets and adjusting the target properties, candidate compositions, and model parameters in the corresponding scripts. The supplied datasets serve as examples of the required input formats.
